@@ -43,7 +43,6 @@ class CashRegister
   end
 
   def void_last_transaction
-    @items_to_add
-    @last_tx_amount
+    puts @items_to_add
   end
 end
