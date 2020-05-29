@@ -23,8 +23,9 @@ class CashRegister
     else
       @items << item
     end
-    @total += price * quantity
-    @last_tx_amount = @total
+    @items_to_add = price * quantity
+    @last_tx_amount = @items_to_add
+    @total += @items_to_add
   end
 
   def apply_discount
