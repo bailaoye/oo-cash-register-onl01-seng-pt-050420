@@ -8,6 +8,4 @@ class CashRegister
     @discount = 20
   end
 
-  def new
-
 end
