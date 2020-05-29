@@ -42,6 +42,6 @@ class CashRegister
   end
 
   def void_last_transaction
-    puts @items_to_add
+    @total -= @last_tx_amount
   end
 end
